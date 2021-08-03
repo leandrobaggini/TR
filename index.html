@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/UI/ico_tit.png" type="image/x-icon">
+    <title>Titanes - Experiencia AR</title>
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet"> 
+    <!--Responsive Mobile First-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menuInicio">
+        <div class="fondo">
+            <img  src="assets/background/Titanes-en-el-Ring-18 1.png" alt="lucha de titanes">
+        </div>
+    
+        <div class="sombreado"></div>
+    
+        <div class="degradado">
+            <img src="assets/background/degradado.png" alt="degradado inferior">
+        </div>
+    
+        <div class="container UIsup">
+            <div class="d-flex justify-content-center">
+                <img id="logo" class="align-items-center" src="assets/UI/logo.png" alt="Logo titanes en el ring" style="width:70%;">
+            </div>
+            
+            <div class="d-flex justify-content-center">
+                <img class="align-items-center" type="button" id="boton" src="assets/UI/btn_iniciar.png" alt="boton iniciar">
+            </div>
+    
+            <div class="text-center">
+                <h1>¡Explora el nuevo de TITANES EN EL RING! <br>
+                <span>Ahora en REALIDAD AUMENTADA</span></h1>
+            </div>
+        </div>
+    
+        <footer>
+            <div class="logoCosmo">
+                <img src="assets/UI/Logo_Cosmo.png" alt="Logo Cosmo Games">
+            </div>
+            <div class="logoARjs">
+                <img src="assets/UI/logo-arjs.png" alt="Logo Ar.js">
+            </div>
+            <div class="creditos">
+    
+            </div>
+        </footer>
+    </div>
+
+    <section id="experienciaAR">
+        <div id="iframe">
+            <iframe src="AR.html" width="450px" height="750px" aling="center" border-color="trasparent"></iframe>
+        </div>
+    </section>
+    
+    <!--Codigo JS Responsive-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>  
+    <!--Custom JS-->
+    <script src="main.js"></script>
+</body>
+</html>
